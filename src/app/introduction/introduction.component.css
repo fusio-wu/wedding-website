@@ -7,13 +7,13 @@
     color: gray;
   }
 
-  .introduction_background_pic {
+  /* .introduction_background_pic {
     padding-top: 20%;
     padding-bottom: 30%;
     background-image: url(../../assets/flower_ring.png);
     background-repeat:no-repeat;
     background-size:100%;
-  }
+  } */
 
   .name {
     font-size: 100px;
