@@ -1,0 +1,27 @@
+/* IntroductionComponent's private CSS styles */
+  .introduction_couple_pic, .introduction_background_pic{
+    background-color:white;
+    text-align: center;
+    margin: -10px;
+    margin-bottom: 100px;
+    color: gray;
+  }
+  .introduction_background_pic {
+    background-repeat: no-repeat;
+    background-size: cover;   
+  }
+  .name {
+    font-size: 100px;
+    border: 1em;  
+  }
+  .date_loca, .countdown {
+    font-size: 30px;  
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    border: 10px;
+  }
+  .countdown {
+    border-bottom: 35px;
+  }
+  .couple_pic_front {
+    width: 48%
+  }
