@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^5/themes/default.css" />
 <vm-player
   theme="light"
   style="--vm-player-theme: #e86c8b;"
@@ -8,7 +9,14 @@
       type="video/mp4"
     />
   </vm-audio>
-  <vm-default-ui>
-    <!-- We can place our own UI components here to extend the default UI. -->
-  </vm-default-ui>
+  <vm-ui>
+    <vm-controls>
+      <!-- ... -->
+      <vm-playback-control [hideTooltip]="true"></vm-playback-control>
+      <vm-volume-control [hideTooltip]="true"></vm-volume-control>
+      <vm-current-time></vm-current-time>
+      <vm-scrubber-control></vm-scrubber-control>
+      <vm-end-time></vm-end-time>
+    </vm-controls>
+  </vm-ui>
 </vm-player>

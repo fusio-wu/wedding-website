@@ -9,7 +9,7 @@ export class IntroductionComponent implements OnInit {
   today: Date = new Date();
   // Target wedding date is  2021, September 18 5pm LA time =>  2021, September 19 00:00 UTC
   targetDate: Date = new Date('September 18, 2021 17:00:00');
-  location: string = "Los Angeles";
+  location: string = "South Park Center Los Angeles";
 
   constructor() { }
 
