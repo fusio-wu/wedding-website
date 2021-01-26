@@ -5,6 +5,7 @@
     margin: -10px;
     margin-bottom: 100px;
     color: gray;
+    background-image: url("../../assets/flowers.gif");
   }
 
   /* .introduction_background_pic {
@@ -18,8 +19,7 @@
   .name {
     font-size: 100px;
     font-family: Snell Roundhand, cursive;
-    border: 1em;
-    margin: 1em;  
+    padding: 1em;
   }
   .date_loca, .countdown {
     font-size: 30px;  
@@ -35,6 +35,37 @@
     width: 48%
   }
 
+  .wedding_gif {
+    margin-top: 30px;
+    background-color: rgb(243, 196, 184);
+  }
+
+  .wedding_gif_img {
+    max-width: 100%;
+  }
+
+  .christmas_light {
+    width: 50px; /* width of container */
+    height: auto; /* height of container */
+  }
+
+  .diamond_container {
+    display : block;
+    margin : auto;
+    position: relative;
+    margin: auto;
+    width: 1px;
+    height: 200px;
+  }
+
+  .diamond {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    overflow: hidden;
+  }
+  .diamond_gif {
+    margin: -180px 0px 0px -300px;
+  }
   /**************************************************/
   /* heart animation begins*/
   body{
@@ -57,7 +88,7 @@
       top: 0;
       width: 50px;
       height: 80px;
-      background: red;
+      background: rgb(243, 196, 184);
       -moz-border-radius: 50px 50px 0 0;
       border-radius: 50px 50px 0 0;
       -webkit-transform: rotate(-45deg);
