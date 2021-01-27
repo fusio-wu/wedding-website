@@ -1,29 +1,31 @@
 /* IntroductionComponent's private CSS styles */
-  .introduction_couple_pic, .introduction_background_pic{
+  .introduction_background_pic{
     background-color:white;
     text-align: center;
     margin: -10px;
-    margin-bottom: 100px;
     color: gray;
     background-image: url("../../assets/flowers.gif");
+    padding-bottom: 50px;
   }
 
-  /* .introduction_background_pic {
-    padding-top: 20%;
-    padding-bottom: 30%;
-    background-image: url(../../assets/flower_ring.png);
-    background-repeat:no-repeat;
-    background-size:100%;
-  } */
+  .introduction_couple_pic{
+    background-color:white;
+    text-align: center;
+    margin: -10px;
+    margin-bottom: 50px;
+    color: gray;
+  }
 
   .name {
-    font-size: 100px;
+    font-size: 15vw;
     font-family: Snell Roundhand, cursive;
     padding: 1em;
+    padding-top: 0.7em;
   }
   .date_loca, .countdown {
-    font-size: 30px;  
+    font-size: 20px;
     border: 10px;
+    font-family: Arial;
   }
   .countdown {
     border-bottom: 35px;
@@ -32,7 +34,7 @@
     position: relative;
   }
   .couple_pic_front {
-    width: 48%
+    width: 100%
   }
 
   .wedding_gif {
@@ -47,10 +49,12 @@
   .christmas_light {
     width: 50px; /* width of container */
     height: auto; /* height of container */
+    display: none;
   }
 
   .diamond_container {
-    display : block;
+    display : none ;
+    /* display: block; */
     margin : auto;
     position: relative;
     margin: auto;
