@@ -8,6 +8,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { PlayerComponent } from './player/player.component';
 import { StoryComponent } from './story/story.component';
 import { BestpeopleComponent } from './bestpeople/bestpeople.component';
+import {SlideshowModule} from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BestpeopleComponent } from './bestpeople/bestpeople.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    VimeModule
+    VimeModule,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

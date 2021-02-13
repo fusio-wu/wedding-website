@@ -26,6 +26,22 @@
     width: 100%;
   }
 
+  .couple_pic_gallery_container {
+    text-align: center;
+    width: 50%;
+    float: left;
+    margin-bottom: 1em;
+}
+   .couple_pic_gallery {
+    border-radius: 25px;
+    width: 90%;
+ }
+
+ .couple_pic_gallery:hover {
+    border-radius: 25px;
+    width: 90%;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 20%), -4px -4px 4px 4px rgb(0 0 0 / 20%);
+ }
 
 /**************************************************/
 /* heart animation begins*/
