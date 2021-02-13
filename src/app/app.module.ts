@@ -8,6 +8,8 @@ import { PlayerComponent } from './player/player.component';
 import { StoryComponent } from './story/story.component';
 import { BestpeopleComponent } from './bestpeople/bestpeople.component';
 import {SlideshowModule} from 'ng-simple-slideshow';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {SlideshowModule} from 'ng-simple-slideshow';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlideshowModule
+    SlideshowModule,
+    NoopAnimationsModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

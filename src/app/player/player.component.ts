@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-player',
@@ -6,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./player.component.css']
 })
 export class PlayerComponent implements OnInit {
+  message = "For better experience, please play the music";
+  action = "dismiss";
 
-  constructor() { }
+  constructor(private _snackBar: MatSnackBar) {
+    this._snackBar.open(this.message, this.action, {
+      verticalPosition: "top",
+    });   
+  }
 
   ngOnInit(): void {
   }
