@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { VimeModule } from '@vime/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,7 +20,6 @@ import {SlideshowModule} from 'ng-simple-slideshow';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    VimeModule,
     SlideshowModule
   ],
   providers: [],
