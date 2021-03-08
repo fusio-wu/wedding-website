@@ -10,7 +10,12 @@
     visibility: hidden;
   }
 
-  .couple_pic_gallery {
+  .best_person_anime {
+    border-radius: 10px;
+    width: 50%;
+ }
+
+ .couple_pic_gallery {
     border-radius: 10px;
     width: 100%;
  }
@@ -26,7 +31,7 @@
     width: 100%;
   }
 
-  .best_person_container {
+  .best_person_anime_container, .best_person_container {
     flex: 1;
     padding: 0.5%;
     text-align: center;
