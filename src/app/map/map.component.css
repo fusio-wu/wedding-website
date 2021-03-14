@@ -3,7 +3,7 @@
     margin-bottom: 30px;
 }
 
-.map_intro_eng, .map_intro_cn{
+.map_intro_eng, .map_intro_cn, .map_intro_eng_separator{
     text-align: center;
     font-family: Arial;
 }
@@ -12,10 +12,14 @@
     margin-bottom: 1em;
 }
 
-.story, .name, .map_intro_eng {
+.story, .name, .map_intro_eng, .map_intro_eng_separator {
     color: gray;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.map_intro_eng_separator {
+    margin-top: 1.5em;
 }
 
 .map_iframe {
