@@ -10,6 +10,7 @@ import { BestpeopleComponent } from './bestpeople/bestpeople.component';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     IntroductionComponent,
     PlayerComponent,
     StoryComponent,
-    BestpeopleComponent
+    BestpeopleComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
