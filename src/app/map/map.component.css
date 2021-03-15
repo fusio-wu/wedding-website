@@ -1,10 +1,10 @@
 .map_intro_container {
     margin-top: 50px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .map_intro_eng, .map_intro_cn, .map_intro_eng_separator{
-    text-align: center;
     font-family: Arial;
 }
 
@@ -74,3 +74,32 @@
 
   /**************************************************/
 /* heart animation ends*/
+
+/**************************************************/
+/* Instagram begins*/
+
+.fa {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .loveissweet_img {
+    border: 2px solid #555
+}
+
+  /**************************************************/
+/* Instagram ends*/
